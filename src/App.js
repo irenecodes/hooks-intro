@@ -4,7 +4,7 @@ import './App.css';
 import EffectTutorial from './components/EffectTutorial';
 import RefTutorial from './components/RefTutorial';
 import LayoutTutorial from './components/LayoutTutorial';
-
+import ImperativeHandleTutorial from './components/ImperativeHandleTutorial';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <EffectTutorial />
       <RefTutorial />
       <LayoutTutorial />
+      <ImperativeHandleTutorial />
     </div>
   );
 }
